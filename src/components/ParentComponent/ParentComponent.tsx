@@ -155,9 +155,9 @@ export const ParentComponent: React.FC = () => {
                                     className={selectedTasks[index] ? `${styles.taska} ${styles.selected}` : styles.taska}>
                                     {task}
                                 </div>
-                                <div className={styles.izmTaskConteiner} onClick={() => updateTask(index, updatedTasks)}>
+{/*                                 <div className={styles.izmTaskConteiner} onClick={() => updateTask(index, updatedTasks)}>
                                     <IzmTasImage className={styles.izmTas}/>
-                                </div>
+                                </div> */}
                                 <div className={styles.deleteTaskContainer} onClick={() => deleteTask(index)}>
                                     <DeleteTaskImage className={styles.deleteTask}/>
                                 </div>
